@@ -1,8 +1,14 @@
-# @ocampoce/capitalize package
+# @ocampoce/capitalize npm package
 
 ## Getting Started
 
 Coming soon.
+
+```
+function capitalize(string) {
+    return string
+}
+```
 
 ## Docs
 
