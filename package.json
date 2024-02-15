@@ -1,0 +1,22 @@
+{
+  "name": "capitalize",
+  "version": "1.0.0",
+  "description": "A helper in JavaScript for capitalizing first letter in a string and leaving rest letter unchanged.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caseyocampo/capitalize.git"
+  },
+  "keywords": [
+    "capitalize"
+  ],
+  "author": "Casey Ocampo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caseyocampo/capitalize/issues"
+  },
+  "homepage": "https://github.com/caseyocampo/capitalize#readme"
+}

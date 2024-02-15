@@ -1,6 +1,6 @@
 # @ocampoce/capitalize npm package
 
-A helper in KavaScript for capitalizing first letter in a string and leaving rest letter unchanged.
+A helper in JavaScript for capitalizing first letter in a string and leaving rest letter unchanged.
 
 ## Usage
 
