@@ -1,13 +1,14 @@
 # @ocampoce/capitalize npm package
 
-## Getting Started
+A helper in KavaScript for capitalizing first letter in a string and leaving rest letter unchanged.
 
-Coming soon.
+## Usage
 
 ```
-function capitalize(string) {
-    return string
-}
+import { capitalize } from 'capitalize-ts';
+
+capitalize('hello'); // 'Hello'
+capitalize('hello, World'); // 'Hello World'
 ```
 
 ## Docs
