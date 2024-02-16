@@ -22,28 +22,28 @@ GitHub links:
 
 Initialize npm
 
-    `npm init`
+    npm init
 
 (Optional) - scope or namespace the repo
 
-    `npm init --scope=namespace-goes-here`
+    npm init --scope=namespace-goes-here
 
 - Example: `npm init --scope=ocampoce`
 
 Test package in a separate repo
 
-    `npm link`
+    npm link
 
 Login to npm to publish public package
 
-    `npm login`
+    npm login
 
 Publish a package two ways:
 
 - Publish package
 
-  `npm publish`
+        npm publish
 
 - Publish public "scoped" or "namespaced" package
 
-  `npm publish --access=public`
+        npm publish --access=public
