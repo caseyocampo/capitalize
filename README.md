@@ -16,17 +16,17 @@ Initialize npm package
 
     npm init
 
-(Optional) - scope or namespace the package
+    // (Optional) - scope or namespace the package
 
     npm init --scope=namespace-goes-here
 
 - Example: `npm init --scope=ocampoce`
 
-Test package in a separate package
+Test package in a separate repo
 
     npm link
 
-Login to npm to publish public package
+Login to npm to publish public package (must create an [npmjs.com](https://www.npmjs.com/) account)
 
     npm login
 
