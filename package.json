@@ -1,7 +1,7 @@
 {
   "name": "capitalize",
   "version": "1.0.0",
-  "description": "A helper in JavaScript for capitalizing first letter in a string and leaving rest letter unchanged.",
+  "description": "A helper function in JavaScript for capitalizing first letter in a string and leaving rest letter unchanged.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
