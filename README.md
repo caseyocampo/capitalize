@@ -36,11 +36,11 @@ Publish a package two ways:
 
         npm publish
 
-- Publish public "scoped" or "namespaced" package
+- Publish a public "scoped" or "namespaced" package
 
         npm publish --access=public
 
-## Misc (Docs to add SSH to GitHub)
+## Misc (Docs to add SSH Keys to GitHub)
 
 GitHub links:
 
