@@ -12,11 +12,11 @@ capitalize('hello'); // 'Hello'
 
 ## Steps to creating and publishing an npm package
 
-Initialize npm
+Initialize npm package
 
     npm init
 
-(Optional) - scope or namespace the repo
+(Optional) - scope or namespace the package
 
     npm init --scope=namespace-goes-here
 
