@@ -18,13 +18,19 @@ capitalize('hello'); // 'Hello'
 
 ## Publishing an npm package
 
-1. Test package in a separate repo
+1. Initialize npm
+   `npm init`
+
+- (Optional) - scope or namespace the repo
+  `npm init scope=namespace-goes-here`
+
+2. Test package in a separate repo
    `npm link`
 
-2. Login to npm to publish public package
+3. Login to npm to publish public package
    `npm login`
 
-3. Publish a package two ways:
+4. Publish a package two ways:
 
 - Publish package
   `npm publish`
