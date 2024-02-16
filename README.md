@@ -18,16 +18,16 @@ capitalize('hello'); // 'Hello'
 
 ## Publishing an npm package
 
-Test package in a separate repo
-`npm link`
+1. Test package in a separate repo
+   `npm link`
 
-Login to npm to publish public package
-`npm login`
+2. Login to npm to publish public package
+   `npm login`
 
-Publish a package two ways
+3. Publish a package two ways:
 
-1. Publish package
-   `npm publish`
+- Publish package
+  `npm publish`
 
-2. Publish public "scoped" or "namespaced" package
-   `npm publish --access=public`
+- Publish public "scoped" or "namespaced" package
+  `npm publish --access=public`
