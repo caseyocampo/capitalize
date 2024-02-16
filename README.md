@@ -12,7 +12,7 @@ capitalize('hello'); // 'Hello'
 
 ## Steps to creating and publishing an npm package
 
-Initialize npm package
+### Initialize npm package
 
     npm init
 
@@ -22,9 +22,21 @@ Initialize npm package
 
 - Example: `npm init --scope=ocampoce`
 
-Test package in a separate repo
+After initializing, write some code and create your package, then push it to a remote repo like GitHub.
+
+### Testing the package
+
+In package repo:
 
     npm link
+
+In test repo:
+
+    npm link package-name
+
+Test the package by importing it and using the package as intended. If everything works, you can now publish your package!
+
+### Publishing the package
 
 Login to npm to publish public package (must create an [npmjs.com](https://www.npmjs.com/) account)
 
@@ -32,7 +44,7 @@ Login to npm to publish public package (must create an [npmjs.com](https://www.n
 
 Publish a package two ways:
 
-- Publish package
+- Publish package (non-scoped)
 
         npm publish
 
