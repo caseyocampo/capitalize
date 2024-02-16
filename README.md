@@ -24,9 +24,9 @@ Initialize npm
 `npm init`
 
 (Optional) - scope or namespace the repo
-`npm init scope=namespace-goes-here`
+`npm init --scope=namespace-goes-here`
 
-- Example: `npm init scope=ocampoce`
+- Example: `npm init --scope=ocampoce`
 
 Test package in a separate repo
 `npm link`
