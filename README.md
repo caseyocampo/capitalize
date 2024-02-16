@@ -5,7 +5,7 @@ A helper function in JavaScript for capitalizing first letter in a string and le
 ## Usage
 
 ```
-import { capitalize } from 'capitalize';
+import { capitalize } from '@ocampoce/capitalize';
 
 capitalize('hello'); // 'Hello'
 ```
