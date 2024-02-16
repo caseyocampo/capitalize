@@ -10,15 +10,7 @@ import { capitalize } from 'capitalize';
 capitalize('hello'); // 'Hello'
 ```
 
-## Docs
-
-GitHub links:
-
-[adding-a-new-ssh-key-to-your-github-account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-
-[generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-## Publishing an npm package
+## Steps to creating and publishing an npm package
 
 Initialize npm
 
@@ -30,7 +22,7 @@ Initialize npm
 
 - Example: `npm init --scope=ocampoce`
 
-Test package in a separate repo
+Test package in a separate package
 
     npm link
 
@@ -47,3 +39,11 @@ Publish a package two ways:
 - Publish public "scoped" or "namespaced" package
 
         npm publish --access=public
+
+## Misc (Docs to add SSH to GitHub)
+
+GitHub links:
+
+[adding-a-new-ssh-key-to-your-github-account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+[generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
