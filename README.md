@@ -1,13 +1,19 @@
 # @ocampoce/capitalize npm package
 
-A helper function in JavaScript for capitalizing first letter in a string and leaving rest letter unchanged.
+A couple of helper functions in vanilla JavaScript.
+
+`capitalize(string)` capitalizes the first letter in a string and leaves rest of the letters unchanged.
+
+`capitalizeAll(string)` capitalizes the first letter of every word in a string and leaves rest of the letters in each word unchanged.
 
 ## Usage
 
 ```
 import { capitalize } from '@ocampoce/capitalize';
 
-capitalize('hello'); // 'Hello'
+capitalize('hello world'); // 'Hello world'
+
+capitalizeAll("hello world") // Hello World
 ```
 
 ## Steps to creating and publishing an npm package
