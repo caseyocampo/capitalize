@@ -1,7 +1,7 @@
 {
   "name": "@ocampoce/capitalize",
-  "version": "1.0.18",
-  "description": "A helper function in JavaScript for capitalizing first letter in a string and leaving rest letter unchanged.",
+  "version": "1.0.19",
+  "description": "A couple of helper functions in vanilla JavaScript for capitalizing the first letter of a string and capitalizing the first letter of every word in a string.",
   "main": "index.js",
   "type": "module",
   "scripts": {
