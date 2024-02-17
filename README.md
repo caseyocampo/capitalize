@@ -44,7 +44,7 @@ In the test repo:
 
 Test the package by importing it and using the package as intended. If everything works, you can now publish your package!
 
-### Publishing the package
+### Step 4 - Publishing the package
 
 Login to npm to publish public package (must create an [npmjs.com](https://www.npmjs.com/) account)
 
