@@ -22,7 +22,7 @@ capitalize('hello'); // 'Hello'
 
 - Example: `npm init --scope=ocampoce`
 
-### Step 2 - Create you package
+### Step 2 - Create your package
 
 After initializing, write some code to create your package, then push it to a remote repo like GitHub.
 
