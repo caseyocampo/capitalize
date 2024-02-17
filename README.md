@@ -12,7 +12,7 @@ capitalize('hello'); // 'Hello'
 
 ## Steps to creating and publishing an npm package
 
-### Initialize npm package
+### Step 1 - Initialize npm package
 
     npm init
 
@@ -22,17 +22,25 @@ capitalize('hello'); // 'Hello'
 
 - Example: `npm init --scope=ocampoce`
 
-After initializing, write some code and create your package, then push it to a remote repo like GitHub.
+###Step 2 - Create you package
 
-### Testing the package
+After initializing, write some code to create your package, then push it to a remote repo like GitHub.
 
-In package repo:
+### Step 3 - Testing the package
+
+Test you package using npmjs's [npm link](https://docs.npmjs.com/cli/v10/commands/npm-link) feature.
+
+In the package repo:
 
     npm link
 
-In test repo:
+In the test repo:
 
     npm link package-name
+
+- Example (non-scoped): `npm link capitalize`
+
+- Example (scoped): `npm link @ocampoce/capitalize`
 
 Test the package by importing it and using the package as intended. If everything works, you can now publish your package!
 
@@ -52,9 +60,16 @@ Publish a package two ways:
 
         npm publish --access=public
 
+Note: you may need to add `"type": "module"` in your
+package's `package.json` file if it is not already there. Without this, you may get this error when attempting to publish.
+
+    Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+
 ## Misc (Docs to add SSH Keys to GitHub)
 
-GitHub links:
+You may need to add an SSH key to GitHub if you would like to access it via SSH instead of https.
+
+Here are some GitHub links that guide through SSH set up and adding it to GitHub and your local machine.
 
 [adding-a-new-ssh-key-to-your-github-account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
