@@ -11,7 +11,7 @@ A couple of helper functions in vanilla JavaScript.
 ```
 import { capitalize } from '@ocampoce/capitalize';
 
-capitalize('hello world'); // 'Hello world'
+capitalize("hello world"); // Hello world
 
 capitalizeAll("hello world") // Hello World
 ```
